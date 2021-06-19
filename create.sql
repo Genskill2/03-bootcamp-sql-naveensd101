@@ -16,7 +16,7 @@ CREATE TABLE subjects (
 );
 
 CREATE TABLE books_subjects (
-	books integer references books(id),
+	book integer references books(id),
 	subject integer references subjects(id)
 );
 
